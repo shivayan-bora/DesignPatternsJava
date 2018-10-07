@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df25080a-c829-4441-a7b0-7802eff10cd4" name="Default Changelist" comment="" />
+    <list default="true" id="df25080a-c829-4441-a7b0-7802eff10cd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="891" />
     <option name="width" value="918" />
     <option name="height" value="912" />
@@ -251,7 +253,7 @@
       <workItem from="1537353927352" duration="11208000" />
       <workItem from="1537551656799" duration="2052000" />
       <workItem from="1537788284254" duration="270000" />
-      <workItem from="1538901005646" duration="701000" />
+      <workItem from="1538901005646" duration="906000" />
     </task>
     <servers />
   </component>
@@ -270,10 +272,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22524000" />
+    <option name="totallyTimeSpent" value="22729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="868" extended-state="7" />
+    <frame x="-9" y="-9" width="1618" height="868" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4041451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
