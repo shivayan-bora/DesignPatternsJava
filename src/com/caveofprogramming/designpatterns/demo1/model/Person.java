@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.mvcdemo.model;
+package com.caveofprogramming.designpatterns.demo1.model;
 
 public class Person {
 	private int id;
@@ -75,5 +75,13 @@ public class Person {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return id + ": " + name + ": " + password;
+	}
+
+	
+	
 	
 }

@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.mvcdemo.model;
+package com.caveofprogramming.designpatterns.demo1.model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,6 +15,9 @@ import java.util.List;
 
 public class MySQLPersonDAO implements PersonDAO {
 
+	/* (non-Javadoc)
+	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#addPerson(com.caveofprogramming.designpatterns.demo1.model.Person)
+	 */
 	@Override
 	public int addPerson(Person person) throws SQLException {
 
@@ -33,6 +36,9 @@ public class MySQLPersonDAO implements PersonDAO {
 		return updated;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#getPerson(int)
+	 */
 	@Override
 	public Person getPerson(int id) throws SQLException {
 		Connection conn = Database.getInstance().getConnection();
@@ -59,6 +65,9 @@ public class MySQLPersonDAO implements PersonDAO {
 		return person;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#getPeople()
+	 */
 	@Override
 	public List<Person> getPeople() throws SQLException {
 
@@ -86,6 +95,9 @@ public class MySQLPersonDAO implements PersonDAO {
 		return people;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#updatePerson(com.caveofprogramming.designpatterns.demo1.model.Person)
+	 */
 	@Override
 	public int updatePerson(Person person) throws SQLException {
 		Connection conn = Database.getInstance().getConnection();
@@ -104,6 +116,9 @@ public class MySQLPersonDAO implements PersonDAO {
 		return updated;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#deletePerson(int)
+	 */
 	@Override
 	public int deletePerson(int id) throws SQLException {
 		Connection conn = Database.getInstance().getConnection();
@@ -120,6 +135,9 @@ public class MySQLPersonDAO implements PersonDAO {
 		return deleted;
 	}
 	
+	/* (non-Javadoc)
+	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#deleteAll()
+	 */
 	@Override
 	public int deleteAll() throws SQLException {
 		Connection conn = Database.getInstance().getConnection();

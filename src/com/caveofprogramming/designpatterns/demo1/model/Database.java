@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.mvcdemo.model;
+package com.caveofprogramming.designpatterns.demo1.model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

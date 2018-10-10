@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.mvcdemo.view;
+package com.caveofprogramming.designpatterns.demo1.view;
 
 public class CreateUserEvent {
 	private String name;
