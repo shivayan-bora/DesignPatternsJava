@@ -1,8 +1,8 @@
-package com.caveofprogramming.designpatterns.demo1.model;
+package com.caveofprogramming.designpatterns.mvc.model;
 
 public class MySQLDAOFactory extends DAOFactory {
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.DAOFactory#getPersonDAO()
+	 * @see com.caveofprogramming.designpatterns.mvc.model.DAOFactory#getPersonDAO()
 	 */
 	@Override
 	public PersonDAO getPersonDAO() {
@@ -10,7 +10,7 @@ public class MySQLDAOFactory extends DAOFactory {
 	}
 	
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.DAOFactory#getLogDAO()
+	 * @see com.caveofprogramming.designpatterns.mvc.model.DAOFactory#getLogDAO()
 	 */
 	@Override
 	public LogDAO getLogDAO() {

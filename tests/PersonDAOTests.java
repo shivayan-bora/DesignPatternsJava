@@ -9,11 +9,11 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.caveofprogramming.designpatterns.demo1.model.DAOFactory;
-import com.caveofprogramming.designpatterns.demo1.model.MySQLDAOFactory;
-import com.caveofprogramming.designpatterns.demo1.model.Database;
-import com.caveofprogramming.designpatterns.demo1.model.Person;
-import com.caveofprogramming.designpatterns.demo1.model.PersonDAO;
+import com.caveofprogramming.designpatterns.mvc.model.DAOFactory;
+import com.caveofprogramming.designpatterns.mvc.model.MySQLDAOFactory;
+import com.caveofprogramming.designpatterns.mvc.model.Database;
+import com.caveofprogramming.designpatterns.mvc.model.Person;
+import com.caveofprogramming.designpatterns.mvc.model.PersonDAO;
 
 public class PersonDAOTests {
 

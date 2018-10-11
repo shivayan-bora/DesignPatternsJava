@@ -1,11 +1,11 @@
-package com.caveofprogramming.designpatterns.demo1.model;
+package com.caveofprogramming.designpatterns.mvc.model;
 
 import java.util.List;
 
 public class MySQLLogDAO implements LogDAO {
 	
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.LogDAO#addEntry(java.lang.String)
+	 * @see com.caveofprogramming.designpatterns.mvc.model.LogDAO#addEntry(java.lang.String)
 	 */
 	@Override
 	public void addEntry(String message) {
@@ -15,7 +15,7 @@ public class MySQLLogDAO implements LogDAO {
 	}
 	
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.LogDAO#getEntries(int)
+	 * @see com.caveofprogramming.designpatterns.mvc.model.LogDAO#getEntries(int)
 	 */
 	@Override
 	public List<Log> getEntries(int number) {

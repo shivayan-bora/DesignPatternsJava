@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.demo1.model;
+package com.caveofprogramming.designpatterns.mvc.model;
 
 public class Person {
 	private int id;

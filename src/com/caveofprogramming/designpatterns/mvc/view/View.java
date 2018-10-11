@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.demo1.view;
+package com.caveofprogramming.designpatterns.mvc.view;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -26,8 +26,8 @@ import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 import javax.swing.border.Border;
 
-import com.caveofprogramming.designpatterns.demo1.model.Model;
-import com.caveofprogramming.designpatterns.demo1.model.Person;
+import com.caveofprogramming.designpatterns.mvc.model.Model;
+import com.caveofprogramming.designpatterns.mvc.model.Person;
 
 public class View extends JFrame implements ActionListener, PeopleChangedListener {
 

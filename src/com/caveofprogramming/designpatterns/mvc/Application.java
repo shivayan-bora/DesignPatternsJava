@@ -1,10 +1,10 @@
-package com.caveofprogramming.designpatterns.demo1;
+package com.caveofprogramming.designpatterns.mvc;
 
 import javax.swing.SwingUtilities;
 
-import com.caveofprogramming.designpatterns.demo1.controller.Controller;
-import com.caveofprogramming.designpatterns.demo1.model.Model;
-import com.caveofprogramming.designpatterns.demo1.view.View;
+import com.caveofprogramming.designpatterns.mvc.controller.Controller;
+import com.caveofprogramming.designpatterns.mvc.model.Model;
+import com.caveofprogramming.designpatterns.mvc.view.View;
 
 public class Application {
 

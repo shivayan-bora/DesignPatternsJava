@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.demo1.view;
+package com.caveofprogramming.designpatterns.mvc.view;
 
 public interface CreateUserListener {
 	public void onUserCreated(CreateUserEvent event);

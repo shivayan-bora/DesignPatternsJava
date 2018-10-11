@@ -1,4 +1,4 @@
-package com.caveofprogramming.designpatterns.demo1.model;
+package com.caveofprogramming.designpatterns.mvc.model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +16,7 @@ import java.util.List;
 public class MySQLPersonDAO implements PersonDAO {
 
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#addPerson(com.caveofprogramming.designpatterns.demo1.model.Person)
+	 * @see com.caveofprogramming.designpatterns.mvc.model.PersonDAO#addPerson(com.caveofprogramming.designpatterns.mvc.model.Person)
 	 */
 	@Override
 	public int addPerson(Person person) throws SQLException {
@@ -37,7 +37,7 @@ public class MySQLPersonDAO implements PersonDAO {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#getPerson(int)
+	 * @see com.caveofprogramming.designpatterns.mvc.model.PersonDAO#getPerson(int)
 	 */
 	@Override
 	public Person getPerson(int id) throws SQLException {
@@ -66,7 +66,7 @@ public class MySQLPersonDAO implements PersonDAO {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#getPeople()
+	 * @see com.caveofprogramming.designpatterns.mvc.model.PersonDAO#getPeople()
 	 */
 	@Override
 	public List<Person> getPeople() throws SQLException {
@@ -96,7 +96,7 @@ public class MySQLPersonDAO implements PersonDAO {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#updatePerson(com.caveofprogramming.designpatterns.demo1.model.Person)
+	 * @see com.caveofprogramming.designpatterns.mvc.model.PersonDAO#updatePerson(com.caveofprogramming.designpatterns.mvc.model.Person)
 	 */
 	@Override
 	public int updatePerson(Person person) throws SQLException {
@@ -117,7 +117,7 @@ public class MySQLPersonDAO implements PersonDAO {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#deletePerson(int)
+	 * @see com.caveofprogramming.designpatterns.mvc.model.PersonDAO#deletePerson(int)
 	 */
 	@Override
 	public int deletePerson(int id) throws SQLException {
@@ -136,7 +136,7 @@ public class MySQLPersonDAO implements PersonDAO {
 	}
 	
 	/* (non-Javadoc)
-	 * @see com.caveofprogramming.designpatterns.demo1.model.PersonDAO#deleteAll()
+	 * @see com.caveofprogramming.designpatterns.mvc.model.PersonDAO#deleteAll()
 	 */
 	@Override
 	public int deleteAll() throws SQLException {

@@ -1,11 +1,11 @@
-package com.caveofprogramming.designpatterns.demo1.model;
+package com.caveofprogramming.designpatterns.mvc.model;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.caveofprogramming.designpatterns.demo1.view.PeopleChangedListener;
+import com.caveofprogramming.designpatterns.mvc.view.PeopleChangedListener;
 
 public class Model {
 	// Could use a sorted set here -- LinkedHashSet or TreeSet

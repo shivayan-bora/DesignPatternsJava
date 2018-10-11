@@ -1,18 +1,13 @@
-package com.caveofprogramming.designpatterns.demo1.controller;
+package com.caveofprogramming.designpatterns.mvc.controller;
 
-import java.sql.SQLException;
-import java.util.List;
-
-import com.caveofprogramming.designpatterns.demo1.model.DAOFactory;
-import com.caveofprogramming.designpatterns.demo1.model.Database;
-import com.caveofprogramming.designpatterns.demo1.model.Model;
-import com.caveofprogramming.designpatterns.demo1.model.Person;
-import com.caveofprogramming.designpatterns.demo1.model.PersonDAO;
-import com.caveofprogramming.designpatterns.demo1.view.AppListener;
-import com.caveofprogramming.designpatterns.demo1.view.CreateUserEvent;
-import com.caveofprogramming.designpatterns.demo1.view.CreateUserListener;
-import com.caveofprogramming.designpatterns.demo1.view.SaveListener;
-import com.caveofprogramming.designpatterns.demo1.view.View;
+import com.caveofprogramming.designpatterns.mvc.model.Database;
+import com.caveofprogramming.designpatterns.mvc.model.Model;
+import com.caveofprogramming.designpatterns.mvc.model.Person;
+import com.caveofprogramming.designpatterns.mvc.view.AppListener;
+import com.caveofprogramming.designpatterns.mvc.view.CreateUserEvent;
+import com.caveofprogramming.designpatterns.mvc.view.CreateUserListener;
+import com.caveofprogramming.designpatterns.mvc.view.SaveListener;
+import com.caveofprogramming.designpatterns.mvc.view.View;
 
 public class Controller implements CreateUserListener, SaveListener,
 		AppListener {
